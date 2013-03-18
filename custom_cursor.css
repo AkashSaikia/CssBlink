@@ -1,0 +1,45 @@
+selection_cursor {
+  display: inline-block;
+  background: #111;
+   
+  -webkit-animation: blink 1.2s linear 0s infinite;
+  -moz-animation: blink 1.2s linear 0s infinite;
+  -ms-animation: blink 1.2s linear 0s infinite;
+  -o-animation: blink 1.2s linear 0s infinite;
+   width:1px;
+}
+ 
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+ 
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+ 
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+ 
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+ 
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
